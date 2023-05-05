@@ -1062,15 +1062,15 @@ main {
 
 .achievements-banner-box {
   width: 100%;
-  height: 200px;
+  height: auto;
   border-radius: 12px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .achievements-banner-box img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   transition: var(--transition-1);
 }
 
@@ -1752,7 +1752,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * Achievements
    */
 
-  .achievements-banner-box { height: 230px; }
+  .achievements-banner-box { height: 400px; }
 
 }
 
